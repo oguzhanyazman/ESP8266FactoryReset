@@ -1,14 +1,3 @@
-// Coding By TridenTD  (Ven.Phaisarn Techajaruwong)
-// FB : ESP8266 IoT 
-// @7/5/2559 Buddhist Era
-//
-// File : ESP8266FactoryReset.ino
-// Note :
-//   1.Upload to ESP8266
-//   2.Waiting to reset
-//
-
-
 #include <ESP8266WiFi.h>
 #include <FS.h>
 
@@ -97,7 +86,6 @@ void ESP8266FactoryReset(){
   Serial.println("[FLASH] has cleaned!");
   Serial.println("Your ESP8266 now is like new one.");
 }
-//////////////////////////////////////////////////////////////////////////////
 
 void setup() {
   // put your setup code here, to run once:
